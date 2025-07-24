@@ -13,7 +13,7 @@
     align-items: center;
     padding: 10px 20px;
     position: absolute;
-    background: linear-gradient(to bottom ,black, transparent);
+    background: linear-gradient(to top ,black, transparent);
     backdrop-filter: blur(10px);
     color: white;
     bottom: 0;
