@@ -2,13 +2,13 @@ header {
     display: flex;
     flex-direction: column;
 }
-.menu-secundario{
+.menu-segundario{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     padding: 5px 20px;
-    background-color: var(--cor-terciaria);
+    background-color: gray;
     gap: 10px;
 }
 .icon{

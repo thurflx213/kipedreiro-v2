@@ -58,19 +58,26 @@
 .card-projeto:hover .figcaption-projetos{
     transform: translateY(0);
 }
+.container-botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
 .botao-projetos{
-    background-color: rgba(128, 128, 128, 0.315);
-    color: #ffffff;
+    background-color: yellow;
+    color: #000000;
     padding: 10px 20px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
     font-size: 1.2rem;
-    text-align: center;
-    margin-top: 20px;
-    display: flex;
     justify-content: center;
     
 }
 .projetos{
     background-color: rgb(59, 59, 59);
+}
+.botao-projetos:hover{
+    background-color: orange;
 }

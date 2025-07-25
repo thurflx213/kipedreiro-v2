@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kipedreiro-v2</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -12,7 +13,6 @@
               <span><img src="assets/img/icon/001-phone-receiver-silhouette.png" alt="telefone de contato" class="icon">(11) 99777-4321</span>
               <span><img src="assets/img/icon/019-email-1.png" alt="E-mail de contato" class="icon">contato@kipedreiro.com</span>
          </div>
-         
          <nav class="menu-primario">
             <img src="assets/img/logo/KiPedreiro.png" alt="kipredreiro Logo" class="logo">
               <ul class="menu-navegacao">
@@ -23,19 +23,22 @@
                   <li><a href="#testemunhos">Testemunhos</a></li>
                   <li><a href="#contato">Contato</a></li>
               </ul>
-         </nav>
+        </nav>
     </header>
     <main>
-       <section class="hero">
+    
+        <section class="hero">
         <div class="conteudo-hero">
             <img src="assets/img/icon/018-idea-1.png" alt="ideia de projeto" class="icon">
-            <p>Contrate os nosso serviços</p>
+            <p>Contrate os nossos serviços</p>
             <button class="botao-orcamento">Orçamento</button>
         </div>
        </section>
+
+
        <section class="servicos">
             <div class="container-servicos">
-                <h3 class="titulo">Os nossos serviços</h3>
+                <h3 class="titulo"> Nossos Serviços</h3>
                 <div class="cards">
                     <div class="card-servico">
                         <figure>
@@ -74,8 +77,13 @@
                         </figure>  
                     </div>
                 </div>
+                <div class="container-botao">
+                    <a href="servicos.html" class="botao-projetos">Veja todos os serviços</a>
+                    </div>
             </div>
        </section>
+
+
        <section class="projetos">
             <div class="container-projetos">
                 <h3 class="titulo2"> Nossos Projetos</h3>
@@ -117,49 +125,151 @@
                     </figure>
                     </div>
                 </div>
-                <a class="botao-projetos">Todos os Projetos</a>
+                <div class="container-botao">
+                <a href="projetos.html" class="botao-projetos">Todos os Projetos</a>
+                </div>
             </div>
        </section>
+
+
        <section class="processos">
-            <h3>Os nossos processos</h3>
-           <div  class="container-servicos">
+           <div  class="container-processo">
+            <h3 class="titulo"> Nossos Processos</h3>
                <div class="cards">
                    <div class="card-processo">
-                       <img src="" alt="Processo 1" class="processo-imagem">
-                       <h3>Processo 1</h3>
-                       <p>Descrição do processo 1.</p>
+                    <figure class="figure1">
+                       <img src="assets/img/icon/005-task.png" alt="Processo 1" class="processo-imagem">
+                       <figcaption class="figcaption-processo">
+                           <h3>Processo 1</h3>
+                           <p>Descrição do processo 1.</p>
+                    </figcaption>
+                </figure>
                    </div>
                      <div class="card-processo">
-                          <img src="" alt="Processo 2" class="processo-imagem">
-                          <h3>Processo 2</h3>
-                          <p>Descrição do processo 2.</p>
+                        <figure class="figure1">
+                            <img src="assets/img/icon/009-civil-engineering.png" alt="Processo 2" class="processo-imagem">
+                            <figcaption class="figcaption-processo">
+                                <h3>Processo 2</h3>
+                                <p>Descrição do processo 2.</p>
+                            </figcaption>
+                        </figure>
                      </div>
                    <div class="card-processo">
-                       <img src="" alt="Processo 3" class="processo-imagem">
-                       <h3>Processo 3</h3>
-                       <p>Descrição do processo 3.</p>
+                    <figure class="figure1">
+                        <img src="assets/img/icon/006-blueprint.png" alt="Processo 3" class="processo-imagem">
+                        <figcaption class="figcaption-processo">
+                            <h3>Processo 3</h3>
+                            <p>Descrição do processo 3.</p>
+                        </figcaption>
+                    </figure>
                    </div>
                    <div class="card-processo">
-                       <img src="" alt="Processo 4" class="processo-imagem">
-                       <h3>Processo 4</h3>
-                       <p>Descrição do processo 4.</p>
+                    <figure class="figure1">
+                        <img src="assets/img/icon/008-hook.png" alt="Processo 4" class="processo-imagem">
+                        <figcaption class="figcaption-processo">
+                            <h3>Processo 4</h3>
+                            <p>Descrição do processo 4.</p>
+                        </figcaption>
+                    </figure>
                    </div>         
                </div>
            </div>
        </section>
+
+
        <section class="testemunhos">
-            <h3>O que dizem sobre nós</h3>
-          <div class="container">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque accusantium odio a consectetur odit, repellendus dolorum, dolor dicta totam temporibus praesentium nisi porro voluptatum ipsum! Vitae aspernatur dolorem blanditiis! Consequuntur?</p>
-            <img src="" alt="" class="testemunho-imagem">
-          </div>
+            <h3 class="titulo-testemunho">O que dizem sobre nós</h3>
+         <div id="carouselId" class="carousel slide w-50" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li
+                    data-bs-target="#carouselId"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="First slide"
+                ></li>
+                <li
+                    data-bs-target="#carouselId"
+                    data-bs-slide-to="1"
+                    aria-label="Second slide"
+                ></li>
+                <li
+                    data-bs-target="#carouselId"
+                    data-bs-slide-to="2"
+                    aria-label="Third slide"
+                ></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img
+                        src="assets/img/img1.jpg"
+                        class="w-100 d-block"
+                        alt="First slide"
+                    />
+                    <div class="carousel-caption d-none d-md-block text-white">
+                        <h3>Maria Aparecida</h3>
+                        <p>A obra ficou muito boa, adorei,</p>
+                        <p>Irei recomendar para familiares.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="assets/img/img1.jpg"
+                        class="w-100 d-block"
+                        alt="Second slide"
+                    />
+                    <div class="carousel-caption d-none d-md-block text-white">
+                        <h3>Carlos oliveira</h3>
+                        <p>gostei bastante da parte de eletrica.</p>
+                        <p>Ja a parte de pintura deixou a desejar.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="assets/img/img1.jpg"
+                        class="w-100 d-block"
+                        alt="Third slide"
+                    />
+                    <div class="carousel-caption d-none d-md-block text-white">
+                        <h3>Aryane Felix</h3>
+                        <p>Estava com um problema na parte de hidraulica</p>
+                        <p>mas graças a esses profissionais o problema foi solucionado</p>
+                    </div>
+                </div>
+            </div>
+            <button
+                class="carousel-control-prev bg-black"
+                type="button"
+                data-bs-target="#carouselId"
+                data-bs-slide="prev"
+            >
+                <span class="carousel-control-prev-icon bg-black" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+                class="carousel-control-next bg-black"
+                type="button"
+                data-bs-target="#carouselId"
+                data-bs-slide="next"
+            >
+                <span class="carousel-control-next-icon bg-black" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+         </div>
+         
        </section>
     </main>
+
+
     <footer>
         <div class="container">
             <div class="coluna-footer">
                 <h3>Sobre nós</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quod labore ab minus dolores dolorum at enim deleniti, voluptatem necessitatibus nulla? Explicabo consectetur non, inventore odit atque tempore laboriosam obcaecati!</p>
+                <p>Mais de 10 anos de experiência em construção e reformas. </p>
+                <p>Compromisso com a qualidade e a satisfação do cliente.</p>
+                <p>Especialistas em obras residenciais, comerciais e reformas em geral. </p>
+                <p>Pontualidade, confiança e serviço bem feito é o nosso lema. </p>
+                
             </div>
             <div class="coluna-footer">
                 <h3>Links úteis</h3>
@@ -175,11 +285,16 @@
             <div class="coluna-footer">
                 <h3>Siga nas redes socias</h3>
                 <div class="redes">
-                    <img src="" alt="Instagram" class="redes-sociais">
-                    <img src="" alt="Linkedin" class="redes-sociais">
+                    <a href="https://instagram.com/kipedreiro" target="_blank">
+                        <img src="assets/img/icon/instagram.svg" alt="Instagram" class="redes-sociais">
+                    </a>
+                    <a href="https://linkedin.com/in/kipedreiro" target="_blank">
+                        <img src="assets/img/icon/linkedin.svg" alt="Linkedin" class="redes-sociais">
+                    </a>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
