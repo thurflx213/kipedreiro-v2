@@ -61,3 +61,30 @@
 .card-servico:hover .figcaption-servico{
     transform: translateY(0);
 }
+
+.cards-colunas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+}
+.card-servico-pagina{
+    height: 280px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.figure-pagina-servico{
+    display: flex;
+}
+
+.figcaption-servico-pagina{
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateX(-50%);
+}
